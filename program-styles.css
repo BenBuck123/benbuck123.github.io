@@ -20,11 +20,8 @@
 }
 
 .banner {
-	background-image: url(http://www.iancoble.com/media/original/8_2_13_CenturyLink_010_jw_v1-copy1.jpg);
-	width: 100%;
-	height: 100vh;
-	background-size: cover;
-	margin-top:0;
+	height: 80px;
+	background: black;
 }
 http://www.hdwallpaper.nu/wp-content/uploads/2015/06/2003126.jpg
 https://www.powerbar.eu/sites/default/files/stage_image/fitness.png
@@ -39,7 +36,7 @@ h1 {
 	list-style: none;
 	display: inline;
 	margin-right: 50px;
-	margin-top: 20px;
+	margin-top: 15px;
 	color: white;
 	opacity: 100%;
 	font-family: Roboto-Light;
@@ -58,63 +55,14 @@ h1 {
 .banner a {
 	color: white;
 }
-.catch h3 {
-	color: white;
-	padding-top: 400px;
-	text-shadow: 2px 2px 5px black;
-	blur-radius: 2px;
-	font-family: Roboto-Light;
-	font-size: 50px;
-	text-align: center;
-}
-.catch p {
-	text-align: center;
-	color: white;
-	font-family: Roboto-Light;
-	text-shadow: 2px 2px 5px black;
-}
 
 
-
-
-.middle {
-	height: 340px;
-	background-color: black;
-	text-align: center;
-	color: white;
-	padding-top:50px;
-
+.pictures .wrapper {
+	display: flex;
 }
 
-.middle p, h3 {
-	opacity: .8;
-	font-family: Roboto-Light;
-
-}
-
-.box1 {
-	text-align: center;
-	padding-top: 50px;
-}
-.box2 {
-	text-align: center;
-	padding-top: 50px;
-}
-.box3 {
-	text-align: center;
-	padding-top: 50px;
-}
-.box3 img {
-	height: 200px;
-	width: 200px;
-}
-.box2 img {
-	height: 200px;
-	width: 200px;
-}
-.box1 img {
-	height: 200px;
-	width: 200px;
+.picture {
+	flex: 1;
 }
 
 .picture {
@@ -190,87 +138,5 @@ h1 {
 	text-align: center;
 	background: black;
 	color: white;
+
 }
-/* <---- Box Fades ----> */
-
-.box1 {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
- .box1:hover {
-    opacity: .7;
-}
-
-.box2 {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
- .box2:hover {
-    opacity: .7;
-}
-
-.box3 {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-}
-
- .box3:hover {
-    opacity: .7;
-}
-/* <---- Flexbox CSS ----> */
-
-.middle .parent {
-	display: flex;
-}
-
-.item {
-	flex: 1;
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-.parent {
-	display: flex;
-}
-
-.connect1 {
-	flex: 1;
-}
-.box1 {
-	background: #028090;
-	height: 300px;
-}
-
-.box2 {
-	background: #F45B69;
-	height: 300px;
-}
-
-.box3 {
-	background: #456990;
-	height: 300px;
-}
-
-
-.pictures .wrapper {
-	display: flex;
-}
-
-.picture {
-	flex: 1;
-}
-
-
-
-
-
-
-
