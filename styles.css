@@ -268,7 +268,59 @@ h1 {
 	flex: 1;
 }
 
+.email-container {
+	height: 100vh;
+	background-image: url(http://ironbattalioncrossfit.com/wp-content/uploads/2015/03/Rope-Work.jpg);
+	background-size: cover;
+}
 
+.email-container h2 {
+	padding-top: 300px;
+	text-align: center;
+	font-family: Roboto-Light;
+	text-shadow: 2px 2px 5px black;
+	color: white;
+}
+
+.footer-container {
+	height: 150px;
+	background: #252525;
+	text-align: center;
+}
+.footer-container img {
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-top: 30px;
+}
+.footer-container ul, li {
+	display: inline;
+	text-decoration: none;
+	color: white;
+	font-family: Roboto-Light;
+	margin-left: 10px;
+	margin-right: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+.footer-container a {
+	color: white;
+}
+.footer-container a:hover {
+	color: #DD1E31;
+	text-decoration: none;
+}
+
+.footer-bottom {
+	height: 60px;
+	background: #DD1E31;
+}
+.footer-bottom p {
+	text-align: center;
+	color: white;
+	font-family: Roboto-Light;
+	padding-top: 20px;
+
+}
 
 
 
