@@ -1,0 +1,73 @@
+@font-face {
+	font-family: Sketch_Block;
+	src: url("fonts/Sketch_Block.ttf");
+}
+
+@font-face {
+	font-family: Roboto-Light;
+	src: url("fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family: FitnessSilhouettes;
+	src: url("fonts/FitnessSilhouettes");
+}
+
+.container img {
+	height: 50px;
+	width: 200px;
+	margin-top: 10px;
+}
+
+.banner {
+	height: 80px;
+	background: black;
+}
+http://www.hdwallpaper.nu/wp-content/uploads/2015/06/2003126.jpg
+https://www.powerbar.eu/sites/default/files/stage_image/fitness.png
+
+
+
+h1 {
+    margin-top: 0;
+}
+
+.banner ul, li {
+	list-style: none;
+	display: inline;
+	margin-right: 50px;
+	margin-top: 15px;
+	color: white;
+	opacity: 100%;
+	font-family: Roboto-Light;
+	text-shadow: 2px 2px 5px black;
+
+}
+.banner a:hover {
+	text-decoration: none;
+	color: #07B8F2;
+}
+.banner h2 {
+	margin-left: 50px;
+	color: white;
+	font-weight: FitnessSilhouettes;
+}
+.banner a {
+	color: white;
+}
+
+/* <---- End of banner area ----> */
+
+body {
+	background-image: url(images/recipebg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container-recipe {
+	background-color: white;
+	height: 2000px;
+	margin-left: 15%;
+	margin-right: 20%;
+}
+
