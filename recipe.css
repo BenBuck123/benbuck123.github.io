@@ -26,6 +26,23 @@
 http://www.hdwallpaper.nu/wp-content/uploads/2015/06/2003126.jpg
 https://www.powerbar.eu/sites/default/files/stage_image/fitness.png
 
+ /* <---- Drop Down Menu ----> */
+
+.dropdown-menu {
+	font-size: 16px;
+	margin-top: 5px;
+	min-width: 105px;
+	display: hide;
+	
+}
+.dropdown-menu li a {
+	color: #898989;
+	padding: 6px 20px;
+	font-weight: 300;
+}
+
+
+
 
 
 h1 {
@@ -40,7 +57,6 @@ h1 {
 	color: white;
 	opacity: 100%;
 	font-family: Roboto-Light;
-	text-shadow: 2px 2px 5px black;
 
 }
 .banner a:hover {
@@ -58,16 +74,58 @@ h1 {
 
 /* <---- End of banner area ----> */
 
-body {
-	background-image: url(images/recipebg.jpg);
+.slider {
+	position: relative;
+	width: 100%;
+	height: 470px;
+	border-bottom: 1px solid #ddd;
+}
+.slide {
+	background: transparent url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/feature-gradient-transparent.png') center center no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
-.container-recipe {
-	background-color: white;
-	height: 2000px;
-	margin-left: 15%;
-	margin-right: 20%;
+.active-slide {
+	display: block;
 }
+
+.slide-copy h1 {
+	color: white;
+	font-weight: 400;
+	font-size: 40px;
+	margin-top: 105px;
+	margin-bottom: 0px;
+}
+
+.slide-copy h2 {
+	color: white;
+	font-weight: 400;
+	font-size: 40px;
+	margin: 5px;
+}
+
+.slide-copy p {
+	color: white;
+	font-size: 1.15em;
+	line-height: 1.75em;
+	margin-bottom: 15px;
+	margin-top: 16px;
+}
+.slide {
+	text-align: right;
+}
+
+.active-slide {
+	display: block;
+}
+
+
+
+
 
