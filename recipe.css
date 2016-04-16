@@ -164,6 +164,7 @@ h1 {
   text-align: center;
   background-image: url('https://www.powerbar.eu/sites/default/files/stage_image/fitness.png');
   height: 470px;
+  display: none;
 }
 
 .slide-feature img {
@@ -174,6 +175,7 @@ h1 {
 .slide-feature a {
   display: block;
   color: #6fc5e0;
+
   
   font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
   font-family: 'Oswald', sans-serif;
