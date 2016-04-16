@@ -323,6 +323,29 @@ h1 {
 
 }
 
+.animation {
+	-webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+}
+.icons {
+	-webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+}
+
+.icons2 {
+	-webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+}
+.icons1 {
+	-webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: 1;
+}
+
+.icons1 {
+
+    -webkit-animation-iteration-count: 1;
+}
 
 
 
